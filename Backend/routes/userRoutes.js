@@ -102,7 +102,7 @@ router.get('/google/callback',
       { expiresIn: '7d' }
     );
  const frontend = process.env.NODE_ENV === 'production' 
-      ? 'https://gym-fee-tracker.vercel.app'
+      ? 'https://gym-payment-manager.vercel.app'
       : 'http://localhost:5173';
 
 res.redirect(`${frontend}/oauth-success?token=${token}`);
