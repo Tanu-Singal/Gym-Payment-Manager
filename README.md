@@ -1,4 +1,4 @@
-# Gym Fee Tracker
+# Gym Payment Manager
 
 Track your gym members and their payment status.
 Go digital -- skip the register!
