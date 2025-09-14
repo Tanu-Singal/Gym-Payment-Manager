@@ -16,7 +16,7 @@ connectDB();
 
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://gym-fee-tracker.vercel.app'
+  'https://gym-payment-manager.vercel.app/'
 ];
 
 app.use(cors({
