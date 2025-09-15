@@ -16,7 +16,7 @@ const Footer = () => {
       }}
     >
       <Box display="flex" justifyContent="center" alignItems="center" gap={1}>
-        <img src={pjLogo} alt="PJ Logo" width="18" height="18" style={{ borderRadius: '10px' }} />
+{/*         <img src={pjLogo} alt="PJ Logo" width="18" height="18" style={{ borderRadius: '10px' }} /> */}
       </Box>
     </Box>
   );
